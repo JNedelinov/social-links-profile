@@ -67,3 +67,6 @@ pnpm-debug.log*
 
 # Project .zip file
 social-links-profile-main.zip
+
+# The README template file
+README-template.md

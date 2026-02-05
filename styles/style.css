@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Inter';
+  /* Point to the file in your folder structure */
+  src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf')
+    format('truetype');
+  font-weight: 100 900; /* Tells CSS this one file covers all weights */
+  font-style: normal;
+}
+
+:root {
+  --font-family: 'Inter', sans-serif;
+  --font-size: 0.875rem;
+  --green: #c5f82a;
+  --white: #ffffff;
+  --grey-700: #333333;
+  --grey-800: #1f1f1f;
+  --grey-900: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--grey-900);
+}
